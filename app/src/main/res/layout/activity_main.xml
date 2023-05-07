@@ -1,0 +1,74 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/selamatDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="Selamat Datang"
+        android:textColor="#AB63ED"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        />
+
+    <EditText
+        android:id="@+id/namaMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:inputType="textPersonName"
+        android:text="Nama"
+        android:textColor="#FFFF00"
+        android:hint="Nama"
+        android:textColorHint="#FFFF00"
+        android:layout_marginTop="80dp"  />
+
+
+
+    <EditText
+        android:id="@+id/npmMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:inputType="number"
+        android:text="NPM"
+        android:textColor="#FFFF00"
+        android:hint="NPM"
+        android:textColorHint="#FFFF00"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <EditText
+        android:id="@+id/jurusanMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:inputType="textPersonName"
+        android:text="Jurusan"
+        android:textColor="#FFFF00"
+        android:hint="Jurusan"
+        android:textColorHint="#FFFF00"
+        tools:layout_editor_absoluteY="317dp" />
+    a
+    <Button
+        android:id="@+id/simpanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/patua_one"
+        android:text="Simpan"
+        tools:layout_editor_absoluteY="421dp"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
